@@ -10,7 +10,15 @@ function ValidarRut(valor:any){
 
    return S?S-1:'k';
 }
+function Editar(){
+  let acudientes:any=document.getElementById("Acudientes");
+  let telefono:any=document.getElementById("telefono");
+  let rut:any=document.getElementById("rut");
+  let email:any=document.getElementById("email");
 
+
+
+}
 (function () {
 
     let acudientes:any=document.getElementById("Acudientes");

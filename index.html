@@ -16,7 +16,7 @@
           <br>
           <label class="Titular">Dann Armand</label>
             <form name="formulario" class="row g-3 needs-validation" novalidate>
-              <ul id="campos">
+              <ul id="campos" >
                 <!--primer campo-->
                 <li>
                   <div class="form-group row">
@@ -112,10 +112,10 @@
                 <li>
                   <div class="row justify-content-center">
                     <div class="col-2">
-                      <button class="btn btn-primary" type="submit">Actualizar</button>
+                      <button class="Actualizar" type="submit">Actualizar</button>
                     </div>
                     <div class="col-2">
-                      <button class="btn btn-primary" type="editar">editar</button>
+                      <button class="Editar" type="editar">editar</button>
                     </div>
                   </div>
                 </li> 
@@ -124,7 +124,7 @@
         <div class="container1">
           <img src="1.png" height="100px" width="100px">
           <div class="grupo">
-            <label for="number"  class="labelNum">Curso</label>
+            <label for="number"  class="labelNum" >Curso</label>
             <div class="Curso">
               <input type="number" class="form-control1" id="number" value="4" required >
             </div>
@@ -134,6 +134,25 @@
             <p> Objetivos </p>
             <p> Nota </p>
           </ul>
+          <div class="Agregar">
+            <form class="AgregarCurso">
+              <div class="row">
+                <div class="col-sm-3">
+                  <input type="text" class="form-control" placeholder="Asignatura">
+                </div>
+                <div class="col-sm-3">
+                  <input type="text" class="form-control" placeholder="Objetivos">
+                </div>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control" placeholder="Nota">
+                </div>
+                <br>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control" placeholder="Crear">
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
         <script>var exports={};</script>
         <script src="js/inicio.js" async></script>

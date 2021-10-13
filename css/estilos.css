@@ -23,7 +23,6 @@ li {
 }
 
 .container1 {
-  font-weight: bold;
   position: relative;
   right: -550px;
   top: -400px;
@@ -32,6 +31,7 @@ li {
 
 .titulos {
   text-align: center;
+  font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,5 +67,27 @@ p {
   font-weight: bold;
   font-size: 17px;
   margin-top: 7px;
+}
+
+.AgregarCurso {
+  position: relative;
+  top: 50px;
+  right: -110px;
+  border: black 1px solid;
+  height: 100px;
+  width: 550px;
+  padding-left: 50px;
+  padding-top: 30px;
+  display: none;
+}
+
+.Actualizar {
+  display: none;
+}
+
+.Editar {
+  position: relative;
+  top: -340px;
+  left: -40px;
 }
 /*# sourceMappingURL=estilos.css.map */
