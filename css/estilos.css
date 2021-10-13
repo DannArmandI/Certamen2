@@ -1,0 +1,71 @@
+ul {
+  list-style: none;
+}
+
+ul li img {
+  width: 150px;
+  height: 150px;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 500px;
+  position: relative;
+  right: 350px;
+}
+
+.form-control {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.container1 {
+  font-weight: bold;
+  position: relative;
+  right: -550px;
+  top: -400px;
+  height: 400px;
+}
+
+.titulos {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  right: -150px;
+  bottom: -50px;
+}
+
+.grupo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  right: -300px;
+  top: -90px;
+}
+
+.Curso {
+  position: relative;
+  right: -7px;
+  top: -3px;
+}
+
+.form-control1 {
+  width: 45px;
+}
+
+p {
+  margin-right: 100px;
+}
+
+.Titular {
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 7px;
+}
+/*# sourceMappingURL=estilos.css.map */
